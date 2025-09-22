@@ -1,0 +1,56 @@
+.wrapper {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  padding: 30px;
+  border-radius: 15px;
+  width: 60%;
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  box-shadow: 0 0 15px rgba(255, 135, 0, 0.3);
+}
+
+.heading {
+  color: #800000;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #6a0572;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #9d0191;
+}
+
+
+.button:disabled {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+
+.limitText {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
